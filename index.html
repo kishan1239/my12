@@ -1,0 +1,3151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Beautiful HTML Emails from monday.com</title>
+    <link rel="stylesheet" href="/css/aaa.css">
+    <link rel="stylesheet" href="/css/kkk.css">
+    <link rel="icon" type="image/x-icon" href="android-icon-144x144.png">
+    <style>
+    
+        * {
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-style: normal;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        }
+        hr{
+            height:1.4px;
+            border-width:0;
+            color:rgb(29, 26, 48);
+            background-color:rgb(29, 26, 48);
+        }
+        .style-0 {
+            cursor: auto;
+            background-color: rgb(2, 8, 23);
+            color: rgb(248, 250, 252);
+            border-color: rgb(30, 41, 59);
+            margin: 0px;
+            line-height: 24px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-style: normal;
+        }
+
+        .style-1 {
+            pointer-events: nonebordercolorrgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+            border-color: rgb(30, 41, 59);
+        }
+
+        .style-2 {
+            max-width: 420px;
+            flex-direction: column;
+            top: auto;
+            right: 0px;
+            bottom: 0px;
+            padding: 16px;
+            width: 100%;
+            max-height: 729.6px;
+            display: flex;
+            z-index: 100;
+            position: fixed;
+            border-color: rgb(30, 41, 59);
+            list-style: outside none none;
+            margin: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-3 {
+            display: none;
+            width: 100%;
+            z-index: 50;
+            inset: 0px;
+            position: fixed;
+            pointer-events: none;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-4 {
+            clip-path: circle(0px at 100% 0%);
+            background-color: rgb(2, 8, 23);
+            width: 100%;
+            right: 0px;
+            inset: 0px;
+            position: absolute;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-5 {
+            padding-top: 64px;
+            padding-bottom: 64px;
+            padding-left: 40px;
+            padding-right: 40px;
+            gap: 12px;
+            width: 100%;
+            display: grid;
+            position: absolute;
+            border-color: rgb(30, 41, 59);
+            list-style: outside none none;
+            margin: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-6 {
+            gap: 12px;
+            display: grid;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-7 {
+            opacity: 0;
+            transform: translateY(50px) translateZ(0px);
+            transform: none;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-8 {
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 100%;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-9 {
+            background-color: rgb(30, 41, 59);
+            flex-shrink: 0;
+            width: 100%;
+            height: 1px;
+            margin-top: 8px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-10 {
+            gap: 12px;
+            display: grid;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-11 {
+            opacity: 0;
+            transform: translateY(50px) translateZ(0px);
+            transform: none;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-12 {
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 100%;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-13 {
+            background-color: rgb(30, 41, 59);
+            flex-shrink: 0;
+            width: 100%;
+            height: 1px;
+            margin-top: 8px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-14 {
+            gap: 12px;
+            display: grid;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-15 {
+            opacity: 0;
+            transform: translateY(50px) translateZ(0px);
+            transform: none;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-16 {
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 100%;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-17 {
+            background-color: rgb(30, 41, 59);
+            flex-shrink: 0;
+            width: 100%;
+            height: 1px;
+            margin-top: 8px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-18 {
+            column-gap: 8px;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-19 {
+            opacity: 0;
+            transform: translateY(50px) translateZ(0px);
+            transform: none;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-20 {
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 100%;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-21 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(248, 250, 252);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: rgb(30, 41, 59);
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            cursor: pointer;
+            appearance: button;
+            background-image: none;
+            text-transform: none;
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            margin: 0px;
+            padding: 8px 16px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-22 {
+            opacity: 0;
+            transform: translateY(50px) translateZ(0px);
+            transform: none;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-23 {
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 100%;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-24 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(15, 23, 42);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: rgb(248, 250, 252);
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            cursor: pointer;
+            appearance: button;
+            background-image: none;
+            text-transform: none;
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            margin: 0px;
+            padding: 8px 16px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-25 {
+            color: rgb(248, 250, 252);
+            z-index: 20;
+            top: 20px;
+            right: 20px;
+            position: absolute;
+            pointer-events: auto;
+            border-color: rgb(30, 41, 59);
+            cursor: pointer;
+            appearance: button;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: none;
+            text-transform: none;
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-26 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-27 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-28 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-29 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-30 {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            background-color: rgb(2, 8, 23);
+            border-color: rgb(30, 41, 59);
+            border-bottom-width: 0.8px;
+            width: 100%;
+            z-index: 30;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            position: sticky;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-31 {
+            padding-left: 80px;
+            padding-right: 80px;
+            max-width: 1280px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-32 {
+            justify-content: space-between;
+            align-items: center;
+            height: 56px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-33 {
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-34 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-35 {
+            column-gap: 6px;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-36 {
+            height: 40px;
+            width: auto;
+            width: auto;
+            border-color: rgb(30, 41, 59);
+            max-width: 100%;
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-37 {
+            display: flex;
+            margin-right: 0px;
+            margin-left: 16px;
+            align-items: center;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-38 {
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-duration: 0.15s;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 9999px;
+            z-index: 10;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-39 {
+            column-gap: 6px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-40 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-41 {
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-duration: 0.15s;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 9999px;
+            margin-right: 0px;
+            margin-left: 12px;
+            z-index: 10;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-42 {
+            column-gap: 6px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-43 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-44 {
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-duration: 0.15s;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 9999px;
+            margin-right: 0px;
+            margin-left: 12px;
+            z-index: 10;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-45 {
+            column-gap: 6px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-46 {
+            border-color: rgb(30, 41, 59);
+            max-width: 100%;
+            height: auto;
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-47 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-48 {
+            display: flex;
+            column-gap: 8px;
+            justify-content: center;
+            align-items: center;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-49 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            border-width: 0.8px;
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            width: 2.25rem;
+            height: 36px;
+            display: flex;
+            cursor: pointer;
+            appearance: button;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: none;
+            text-transform: none;
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgb(248, 250, 252);
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            border: 0.8px solid rgb(30, 41, 59);
+        }
+
+        .style-50 {
+            transform: matrix(0, 0, 0, 0, 0, 0);
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            width: 1.2rem;
+            height: 19.2px;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-51 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-52 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-53 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-54 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-55 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-56 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-57 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-58 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-59 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-60 {
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            width: 1.2rem;
+            height: 19.2px;
+            position: absolute;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-61 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-62 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-63 {
+            column-gap: 8px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-64 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-65 {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(248, 250, 252);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: rgb(30, 41, 59);
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            display: inline-flex;
+            border-color: rgb(30, 41, 59);
+            cursor: pointer;
+            appearance: button;
+            background-image: none;
+            text-transform: none;
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            margin: 0px;
+            padding: 8px 16px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-66 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-67 {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(15, 23, 42);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: rgb(248, 250, 252);
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            display: inline-flex;
+            border-color: rgb(30, 41, 59);
+            cursor: pointer;
+            appearance: button;
+            background-image: none;
+            text-transform: none;
+            font-family: __Inter_36bd41, __Inter_Fallback_36bd41;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            margin: 0px;
+            padding: 8px 16px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-68 {
+            padding-left: 80px;
+            padding-right: 80px;
+            max-width: 1280px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-69 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-70 {
+            width: 66.6667%;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            max-width: 768px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-71 {
+            display: flex;
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            top: 56px;
+            left: -200px;
+            position: absolute;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-72 {
+            width: 1rem;
+            height: 16px;
+            margin-right: 8px;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-73 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-74 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-75 {
+            color: rgb(148, 163, 184);
+            font-size: 14px;
+            line-height: 20px;
+            display: block;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-76 {
+            font-size: 50px;
+            line-height: 48px;
+            display: inline-block;
+            margin-top: 8px;
+            border-color: rgb(30, 41, 59);
+            margin: 8px 0px 0px;
+            font-weight: 400;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-77 {
+            color: transparent;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            background-color: rgb(30, 41, 59);
+            border-width: 0.8px;
+            border-radius: 6px;
+            border-color: rgb(30, 41, 59);
+            max-width: 100%;
+            height: auto;
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0.8px solid rgb(30, 41, 59);
+        }
+
+        .style-78 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-79 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-80 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-81 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-82 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-83 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-84 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-85 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-86 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-87 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-88 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-89 {
+            border-width: 0.8px;
+            border-radius: 6px;
+            border-color: rgb(30, 41, 59);
+            max-width: 100%;
+            height: auto;
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-90 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-91 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-92 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-93 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-94 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-95 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-96 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-97 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-98 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-99 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-100 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-101 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-102 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-103 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-104 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-105 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-106 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-107 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-108 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-109 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-110 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-111 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-112 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-113 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-114 {
+            letter-spacing: -0.75px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 36px;
+            padding-bottom: 4px;
+            border-bottom-width: 0.8px;
+            scroll-margin: 80px;
+            margin-top: 40px;
+            border-color: rgb(30, 41, 59);
+            margin: 40px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-115 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-116 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-117 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-118 {
+            letter-spacing: -0.6px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            scroll-margin: 80px;
+            margin-top: 32px;
+            border-color: rgb(30, 41, 59);
+            margin: 32px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-119 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-120 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-121 {
+            margin-top: 24px;
+            line-height: 28px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-122 {
+            text-underline-offset: 4px;
+            text-decoration-line: underline;
+            font-weight: 500;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: underline solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-123 {
+            margin-top: 48px;
+            border-color: rgb(30, 41, 59);
+            height: 0.8px;
+            color: rgb(248, 250, 252);
+            border-top-width: 0.8px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-124 {
+            display: block;
+            width: 33.3333%;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-125 {
+            top: 100px;
+            position: sticky;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-126 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-127 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 16px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-128 {
+            border-color: rgb(30, 41, 59);
+            list-style: outside none none;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-129 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-130 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-131 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-132 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-133 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-134 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-135 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-136 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-137 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-138 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-139 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-140 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-141 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-142 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-143 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-144 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-145 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-146 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-147 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-148 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-149 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-150 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-151 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-152 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-153 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-154 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-155 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-156 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-157 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-158 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-159 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-160 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-161 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-162 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-163 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-164 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-165 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-166 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-167 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-168 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-169 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-170 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-171 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-172 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-173 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-174 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-175 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-176 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-177 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-178 {
+            column-gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-179 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-180 {
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+        }
+
+        .style-181 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-182 {
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+        }
+
+        .style-183 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-184 {
+            gap: 4px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-185 {
+            color: rgb(148, 163, 184);
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-186 {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(29, 155, 240);
+            padding: 6px;
+            border-color: rgb(30, 41, 59);
+            border-width: 0.8px;
+            border-radius: 9999px;
+            text-decoration: none solid rgb(29, 155, 240);
+            box-sizing: border-box;
+            border: 0.8px solid rgb(30, 41, 59);
+        }
+
+        .style-187 {
+            width: 1.25rem;
+            height: 20px;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-188 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-189 {
+            margin-right: 0px;
+            margin-left: 12px;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(0, 119, 181);
+            padding: 6px;
+            border-color: rgb(30, 41, 59);
+            border-width: 0.8px;
+            border-radius: 9999px;
+            text-decoration: none solid rgb(0, 119, 181);
+            box-sizing: border-box;
+            border: 0.8px solid rgb(30, 41, 59);
+        }
+
+        .style-190 {
+            width: 1.25rem;
+            height: 20px;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-191 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-192 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-193 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-194 {
+            margin-right: 0px;
+            margin-left: 12px;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(66, 103, 178);
+            padding: 6px;
+            border-color: rgb(30, 41, 59);
+            border-width: 0.8px;
+            border-radius: 9999px;
+            text-decoration: none solid rgb(66, 103, 178);
+            box-sizing: border-box;
+            border: 0.8px solid rgb(30, 41, 59);
+        }
+
+        .style-195 {
+            width: 1.25rem;
+            height: 20px;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-196 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-197 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            justify-content: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-198 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 9999px;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-199 {
+            width: 1rem;
+            height: 16px;
+            margin-right: 8px;
+            border-color: rgb(30, 41, 59);
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-200 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-201 {
+            backdrop-filter: blur(16px);
+            padding-top: 32px;
+            padding-bottom: 32px;
+            background-color: rgb(2, 8, 23);
+            border-color: rgb(30, 41, 59);
+            border-top-width: 0.8px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-202 {
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 40px;
+            max-width: 1280px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-203 {
+            gap: 32px;
+            grid-template-columns: 198.4px 198.4px 198.4px 198.4px 198.4px;
+            display: grid;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-204 {
+            grid-column: span 2 / span 2;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-205 {
+            column-gap: 8px;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            color: rgb(248, 250, 252);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-206 {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0px;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0px, 0px, 0px, 0px);
+            white-space: nowrap;
+            border-width: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-207 {
+            height: 60pxbordercolorrgb(30, 41, 59);
+            max-width: 100%;
+            display: block;
+            padding: middle;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+            border-color: rgb(30, 41, 59);
+        }
+
+        .style-208 {
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 32px;
+            margin-bottom: 0px;
+            max-width: 320px;
+            border-color: rgb(30, 41, 59);
+            margin: 32px 0px 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-209 {
+            margin-top: 32px;
+            margin-bottom: 0px;
+            align-items: center;
+            display: flex;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-210 {
+            margin-top: 0px;
+            grid-column: span 3 / span 3;
+            grid-template-columns: 140.8px 140.8px 140.8px 140.8px;
+            gap: 32px;
+            display: grid;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-211 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-212 {
+            color: rgb(148, 163, 184);
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            border-color: rgb(30, 41, 59);
+            margin: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-213 {
+            margin-top: 16px;
+            border-color: rgb(30, 41, 59);
+            list-style: outside none none;
+            padding: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-214 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-215 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            border-color: rgb(30, 41, 59);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-216 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-217 {
+            color: rgb(148, 163, 184);
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            border-color: rgb(30, 41, 59);
+            margin: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-218 {
+            margin-top: 16px;
+            border-color: rgb(30, 41, 59);
+            list-style: outside none none;
+            padding: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-219 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-220 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            border-color: rgb(30, 41, 59);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-221 {
+            margin-top: 16px;
+            margin-bottom: 0px;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-222 {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+            color: rgb(248, 250, 252);
+            font-size: 14px;
+            line-height: 20px;
+            border-color: rgb(30, 41, 59);
+            text-decoration: none solid rgb(248, 250, 252);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-223 {
+            margin-top: 48px;
+            padding-top: 32px;
+            border-color: rgb(30, 41, 59);
+            border-top-width: 0.8px;
+            box-sizing: border-box;
+            border: 0px solid rgb(229, 231, 235);
+        }
+
+        .style-224 {
+            line-height: 20px;
+            font-size: 14px;
+            text-align: center;
+            width: 100%;
+            border-color: rgb(30, 41, 59);
+            margin: 0px;
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-225 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-226 {
+            position: absolute;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-227 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-228 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-229 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-230 {
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+        }
+
+        .style-231 {
+            z-index: 1000000;
+            --cc-kpizn: 255, 255, 255 !important;
+            --cc-sl84z: 28, 41, 59 !important;
+            --cc-lqu9t: 0, 0, 0 !important;
+            --cc-u4b31: 224, 237, 255 !important;
+            --cc-u8grg: 89, 144, 226 !important;
+            --cc-1f73p: 240, 242, 245 !important;
+            --cc-s9b6x: 211, 221, 230 !important;
+            --cc-1fez6: 168, 186, 205 !important;
+            --cc-e4hcn: 127, 149, 171 !important;
+            --cc-15udf: 55, 81, 108 !important;
+            --cc-99rib: 255, 242, 243 !important;
+            --cc-j1pum: 255, 220, 224 !important;
+            --cc-rs6m9: 238, 51, 75 !important;
+            --cc-1t2x7: 78, 206, 61 !important;
+            --cc-4ukzn: 255, 246, 208 !important;
+            --cc-1udsi: 255, 244, 127 !important;
+            --cc-1tdyb: 245, 201, 12 !important;
+            --cc-1j3c6: 28, 41, 59 !important;
+            --cc-5suw9: 255, 255, 255 !important;
+            --cc-dfv0z: 146, 169, 193 !important;
+            --cc-1eeow: 55, 81, 108 !important;
+            --cc-1qsix: 233, 238, 243 !important;
+            --cc-tje44: 0, 0, 0 !important;
+            --cc-azz3h: 247, 249, 252 !important;
+            --cc-iabav: 28, 41, 59 !important;
+            --cc-sm5kx: 222, 233, 252 !important;
+            --cc-1fput: 226, 251, 232 !important;
+            --cc-1foz8: 235, 237, 241 !important;
+            --cc-1ccux: 221, 222, 238 !important;
+            --cc-19ox6: 248, 232, 242 !important;
+            --cc-gptc7: 241, 232, 253 !important;
+            --cc-4fuml: 249, 227, 226 !important;
+            --cc-qfnak: 225, 231, 253 !important;
+            --cc-9rjsa: 253, 249, 201 !important;
+            --cc-avk66: 18, 24, 38 !important;
+            --cc-1jpx4: 80, 70, 230 !important;
+            --cc-1a0v0: 255, 255, 255 !important;
+            --cc-skx40: 229, 231, 235 !important;
+            --cc-1mhp4: 209, 213, 219 !important;
+            --cc-1du21: 108, 114, 127 !important;
+            --cc-hivu5: 42, 77, 208 !important;
+            --cc-1dnf9: 60, 126, 68 !important;
+            --cc-gsgdf: 77, 85, 98 !important;
+            --cc-1mnb6: 83, 85, 119 !important;
+            --cc-egrbf: 174, 45, 93 !important;
+            --cc-g9c1z: 116, 41, 198 !important;
+            --cc-1p7yq: 170, 46, 38 !important;
+            --cc-2jw3f: 65, 56, 194 !important;
+            --cc-6b7j3: 125, 80, 31 !important;
+            font-family: 'Crisp Noto Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 11px;
+            position: relative;
+            display: block;
+            line-height: 11px;
+            direction: ltr;
+            text-align: left;
+            color: rgb(0, 0, 0);
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: none solid rgb(0, 0, 0);
+            list-style-type: disc;
+            border-color: rgb(30, 41, 59);
+            box-sizing: border-box;
+            border: 0px solid rgb(30, 41, 59);
+        }
+
+        .style-232 {
+            font-size: 11px;
+            font-weight: 400;
+            -webkit-font-smoothing: subpixel-antialiased;
+            margin: 0px;
+            padding: 0px;
+            user-select: none;
+            display: block;
+            border: 0px none rgb(0, 0, 0);
+            inset: auto !important;
+            clear: none;
+            clip: auto !important;
+            color: rgb(0, 0, 0);
+            counter-increment: none;
+            counter-reset: none;
+            cursor: auto !important;
+            direction: ltr;
+            float: none;
+            font-family: 'Crisp Noto Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            height: auto !important;
+            letter-spacing: normal;
+            line-height: 11px;
+            list-style-type: disc;
+            list-style-position: outside;
+            list-style-image: none;
+            max-height: none;
+            max-width: none;
+            min-height: 0px;
+            min-width: 0px;
+            outline: rgb(0, 0, 0) none 0px;
+            position: static;
+            quotes: '' '';
+            table-layout: auto !important;
+            text-align: left;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-indent: 0px;
+            text-transform: none;
+            text-rendering: auto !important;
+            unicode-bidi: normal;
+            padding: baseline;
+            visibility: visible;
+            white-space: normal;
+            width: auto !important;
+            word-spacing: 0px;
+            z-index: auto !important;
+            border-radius: 0px;
+            box-shadow: none;
+            box-sizing: content-box;
+            columns: auto !important;
+            column-gap: normal;
+            column-rule: 0px none rgb(0, 0, 0);
+            -webkit-text-fill-color: rgb(0, 0, 0);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-feature-settings: normal;
+            overflow: visible;
+            hyphens: manual;
+            hyphenate-character: '‐';
+            perspective: none;
+            perspective-origin: 759.6px 0px;
+            backface-visibility: visible;
+            text-shadow: none;
+            transition: all;
+            word-break: normal;
+            border-color: rgb(0, 0, 0);
+        }
+
+        .style-233 {
+            cursor: pointer;
+            z-index: 2;
+            display: block;
+            bottom: 20px;
+            border-radius: 100%;
+            position: fixed;
+            right: 24px;
+            text-decoration: none solid rgb(0, 0, 0);
+            outline-width: 0px;
+            outline-offset: 3px;
+            font-size: 11px;
+            font-weight: 400;
+            -webkit-font-smoothing: subpixel-antialiased;
+            margin: 0px;
+            padding: 0px;
+            user-select: none;
+            color: rgb(0, 0, 0);
+            border: 0px none rgb(0, 0, 0);
+            inset: auto !important;
+            clear: none;
+            clip: auto !important;
+            counter-increment: none;
+            counter-reset: none;
+            direction: ltr;
+            float: none;
+            font-family: 'Crisp Noto Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            height: auto !important;
+            letter-spacing: normal;
+            line-height: 11px;
+            list-style-type: disc;
+            list-style-position: outside;
+            list-style-image: none;
+            max-height: none;
+            max-width: none;
+            min-height: 0px;
+            min-width: 0px;
+            outline: rgb(0, 0, 0) none 0px;
+            quotes: '' '';
+            table-layout: auto !important;
+            text-align: left;
+            text-indent: 0px;
+            text-transform: none;
+            text-rendering: auto !important;
+            unicode-bidi: normal;
+            padding: baseline;
+            visibility: visible;
+            white-space: normal;
+            width: auto !important;
+            word-spacing: 0px;
+            box-shadow: none;
+            box-sizing: content-box;
+            columns: auto !important;
+            column-gap: normal;
+            column-rule: 0px none rgb(0, 0, 0);
+            -webkit-text-fill-color: rgb(0, 0, 0);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-feature-settings: normal;
+            overflow: visible;
+            hyphens: manual;
+            hyphenate-character: '‐';
+            perspective: none;
+            perspective-origin: 30px 30px;
+            backface-visibility: visible;
+            text-shadow: none;
+            transition: all;
+            word-break: normal;
+            border-color: rgb(0, 0, 0);
+        }
+
+        .style-234 {
+            display: block;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 400;
+            -webkit-font-smoothing: subpixel-antialiased;
+            margin: 0px;
+            padding: 0px;
+            user-select: none;
+            border: 0px none rgb(0, 0, 0);
+            inset: auto !important;
+            clear: none;
+            clip: auto !important;
+            color: rgb(0, 0, 0);
+            counter-increment: none;
+            counter-reset: none;
+            direction: ltr;
+            float: none;
+            font-family: 'Crisp Noto Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            height: auto !important;
+            letter-spacing: normal;
+            line-height: 11px;
+            list-style-type: disc;
+            list-style-position: outside;
+            list-style-image: none;
+            max-height: none;
+            max-width: none;
+            min-height: 0px;
+            min-width: 0px;
+            outline: rgb(0, 0, 0) none 0px;
+            position: static;
+            quotes: '' '';
+            table-layout: auto !important;
+            text-align: left;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-indent: 0px;
+            text-transform: none;
+            text-rendering: auto !important;
+            unicode-bidi: normal;
+            padding: baseline;
+            visibility: visible;
+            white-space: normal;
+            width: auto !important;
+            word-spacing: 0px;
+            z-index: auto !important;
+            border-radius: 0px;
+            box-shadow: none;
+            box-sizing: content-box;
+            columns: auto !important;
+            column-gap: normal;
+            column-rule: 0px none rgb(0, 0, 0);
+            -webkit-text-fill-color: rgb(0, 0, 0);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-feature-settings: normal;
+            overflow: visible;
+            hyphens: manual;
+            hyphenate-character: '‐';
+            perspective: none;
+            perspective-origin: 30px 0px;
+            backface-visibility: visible;
+            text-shadow: none;
+            transition: all;
+            word-break: normal;
+            border-color: rgb(0, 0, 0);
+        }
+
+        .style-235 {
+            background-color: rgb(122, 122, 122);
+            width: 60px !important;
+            height: 60px;
+            display: block;
+            border-radius: 100%;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 10px 0px;
+            transition: transform 0.15s ease-in-out;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 400;
+            -webkit-font-smoothing: subpixel-antialiased;
+            margin: 0px;
+            padding: 0px;
+            user-select: none;
+            border: 0px none rgb(0, 0, 0);
+            inset: auto !important;
+            clear: none;
+            clip: auto !important;
+            color: rgb(0, 0, 0);
+            counter-increment: none;
+            counter-reset: none;
+            direction: ltr;
+            float: none;
+            font-family: 'Crisp Noto Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            letter-spacing: normal;
+            line-height: 11px;
+            list-style-type: disc;
+            list-style-position: outside;
+            list-style-image: none;
+            max-height: none;
+            max-width: none;
+            min-height: 0px;
+            min-width: 0px;
+            outline: rgb(0, 0, 0) none 0px;
+            position: static;
+            quotes: '' '';
+            table-layout: auto !important;
+            text-align: left;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-indent: 0px;
+            text-transform: none;
+            text-rendering: auto !important;
+            unicode-bidi: normal;
+            padding: baseline;
+            visibility: visible;
+            white-space: normal;
+            word-spacing: 0px;
+            z-index: auto !important;
+            box-sizing: content-box;
+            columns: auto !important;
+            column-gap: normal;
+            column-rule: 0px none rgb(0, 0, 0);
+            -webkit-text-fill-color: rgb(0, 0, 0);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-feature-settings: normal;
+            overflow: visible;
+            hyphens: manual;
+            hyphenate-character: '‐';
+            perspective: none;
+            perspective-origin: 30px 30px;
+            backface-visibility: visible;
+            text-shadow: none;
+            word-break: normal;
+            border-color: rgb(0, 0, 0);
+        }
+
+        .style-236 {
+            display: block;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 400;
+            -webkit-font-smoothing: subpixel-antialiased;
+            margin: 0px;
+            padding: 0px;
+            user-select: none;
+            border: 0px none rgb(0, 0, 0);
+            inset: auto !important;
+            clear: none;
+            clip: auto !important;
+            color: rgb(0, 0, 0);
+            counter-increment: none;
+            counter-reset: none;
+            direction: ltr;
+            float: none;
+            font-family: 'Crisp Noto Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            height: auto !important;
+            letter-spacing: normal;
+            line-height: 11px;
+            list-style-type: disc;
+            list-style-position: outside;
+            list-style-image: none;
+            max-height: none;
+            max-width: none;
+            min-height: 0px;
+            min-width: 0px;
+            outline: rgb(0, 0, 0) none 0px;
+            position: static;
+            quotes: '' '';
+            table-layout: auto !important;
+            text-align: left;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-indent: 0px;
+            text-transform: none;
+            text-rendering: auto !important;
+            unicode-bidi: normal;
+            padding: baseline;
+            visibility: visible;
+            white-space: normal;
+            width: auto !important;
+            word-spacing: 0px;
+            z-index: auto !important;
+            border-radius: 0px;
+            box-shadow: none;
+            box-sizing: content-box;
+            columns: auto !important;
+            column-gap: normal;
+            column-rule: 0px none rgb(0, 0, 0);
+            -webkit-text-fill-color: rgb(0, 0, 0);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-feature-settings: normal;
+            overflow: visible;
+            hyphens: manual;
+            hyphenate-character: '‐';
+            perspective: none;
+            perspective-origin: 30px 0px;
+            backface-visibility: visible;
+            text-shadow: none;
+            transition: all;
+            word-break: normal;
+            border-color: rgb(0, 0, 0);
+        }
+
+        .style-237 {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iMzUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIGhlaWdodD0iMTM4LjclIiB3aWR0aD0iMTMxLjQlIiB4PSItMTUuNyUiIHk9Ii0xNS4xJSI+PGZlTW9ycGhvbG9neSBpbj0iU291cmNlQWxwaGEiIG9wZXJhdG9yPSJkaWxhdGUiIHJhZGl1cz0iMSIgcmVzdWx0PSJzaGFkb3dTcHJlYWRPdXRlcjEiLz48ZmVPZmZzZXQgZHk9IjEiIGluPSJzaGFkb3dTcHJlYWRPdXRlcjEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIi8+PGZlR2F1c3NpYW5CbHVyIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSIgc3RkRGV2aWF0aW9uPSIxIi8+PGZlQ29tcG9zaXRlIGluPSJzaGFkb3dCbHVyT3V0ZXIxIiBpbjI9IlNvdXJjZUFscGhhIiBvcGVyYXRvcj0ib3V0IiByZXN1bHQ9InNoYWRvd0JsdXJPdXRlcjEiLz48ZmVDb2xvck1hdHJpeCBpbj0ic2hhZG93Qmx1ck91dGVyMSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjA3IDAiLz48L2ZpbHRlcj48cGF0aCBpZD0iYiIgZD0iTTE0LjIzIDIwLjQ2bC05LjY1IDEuMUwzIDUuMTIgMzAuMDcgMmwxLjU4IDE2LjQ2LTkuMzcgMS4wNy0zLjUgNS43Mi00LjU1LTQuOHoiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48dXNlIGZpbGw9IiMwMDAiIGZpbHRlcj0idXJsKCNhKSIgeGxpbms6aHJlZj0iI2IiLz48dXNlIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiB4bGluazpocmVmPSIjYiIvPjwvZz48L3N2Zz4=');
+            base64PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iMzUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIGhlaWdodD0iMTM4LjclIiB3aWR0aD0iMTMxLjQlIiB4PSItMTUuNyUiIHk9Ii0xNS4xJSIPGZlTW9ycGhvbG9neSBpbj0iU291cmNlQWxwaGEiIG9wZXJhdG9yPSJkaWxhdGUiIHJhZGl1cz0iMSIgcmVzdWx0PSJzaGFkb3dTcHJlYWRPdXRlcjEiLz48ZmVPZmZzZXQgZHk9IjEiIGluPSJzaGFkb3dTcHJlYWRPdXRlcjEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIi8PGZlR2F1c3NpYW5CbHVyIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSIgc3RkRGV2aWF0aW9uPSIxIi8PGZlQ29tcG9zaXRlIGluPSJzaGFkb3dCbHVyT3V0ZXIxIiBpbjI9IlNvdXJjZUFscGhhIiBvcGVyYXRvcj0ib3V0IiByZXN1bHQ9InNoYWRvd0JsdXJPdXRlcjEiLz48ZmVDb2xvck1hdHJpeCBpbj0ic2hhZG93Qmx1ck91dGVyMSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjA3IDAiLz48L2ZpbHRlcj48cGF0aCBpZD0iYiIgZD0iTTE0LjIzIDIwLjQ2bC05LjY1IDEuMUwzIDUuMTIgMzAuMDcgMmwxLjU4IDE2LjQ2LTkuMzcgMS4wNy0zLjUgNS43Mi00LjU1LTQuOHoiLz48L2RlZnMPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48dXNlIGZpbGw9IiMwMDAiIGZpbHRlcj0idXJsKCNhKSIgeGxpbms6aHJlZj0iI2IiLz48dXNlIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiB4bGluazpocmVmPSIjYiIvPjwvZz48L3N2Zz {background-size:contain;background-repeat:no-repeat;background-position:50% 50%;display:block;width: 33px !important;height:28px;top:18px;left:13px;visibility:visible;position:absolute;z-index:2;cursor:pointer;font-size:11px;font-weight:400;-webkit-font-smoothing:subpixel-antialiased;margin:0px;padding:0px;user-select:none;border:0px none rgb(0, 0, 0);inset: auto !important;clear:none;clip: auto !important;color:rgb(0, 0, 0);counter-increment:none;counter-reset:none;direction:ltr;float:none;font-family:' Crisp Noto Sans Regular', ' Helvetica Neue', Helvetica, Arial, sans-serif;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:11px;list-style-type:disc;list-style-position:outside;list-style-image:none;max-height:none;max-width:none;min-height:0px;min-width:0px;outline:rgb(0, 0, 0) none 0px;quotes:' ' ' ';table-layout: auto !important;text-align:left;text-decoration:none solid rgb(0, 0, 0);text-indent:0px;text-transform:none;text-rendering: auto !important;unicode-bidi:normal;padding:baseline;white-space:normal;word-spacing:0px;border-radius:0px;box-shadow:none;box-sizing:content-box;columns: auto !important;column-gap:normal;column-rule:0px none rgb(0, 0, 0);-webkit-text-fill-color:rgb(0, 0, 0);-webkit-tap-highlight-color:rgba(0, 0, 0, 0);font-feature-settings:normal;overflow:visible;hyphens:manual;hyphenate-character:' ‐';perspective:none;perspective-origin:16.5px 14px;backface-visibility:visible;text-shadow:none;transition:all;word-break:normal;border-color:rgb(0, 0, 0);
+
+        }
+        header {
+  line-height: 1.5;
+
+  .hello {
+    color: red;
+  }
+}
+
+    </style>
+</head>
+
+<body class="style-0" data-new-gr-c-s-check-loaded="14.1191.0" data-gr-ext-installed="">
+    <div role="region" aria-label="Notifications (F8)" tabindex="-1" class="style-1">
+        <ol tabindex="-1" class="style-2"></ol>
+    </div>
+    <nav class="style-3">
+        <div class="style-4"></div>
+        <ul class="style-5">
+            <div class="style-6">
+                <li class="style-7"><a class="style-8" href="/blogs">Blogs</a>
+                    <div data-orientation="horizontal" role="none" class="style-9"></div>
+                </li>
+            </div>
+            <div class="style-10">
+                <li class="style-11"><a class="style-12" href="/#faqs">FAQs</a>
+                    <div data-orientation="horizontal" role="none" class="style-13"></div>
+                </li>
+            </div>
+            <div class="style-14">
+                <li class="style-15"><a class="style-16" href="/monday.com">monday.com</a>
+                    <div data-orientation="horizontal" role="none" class="style-17"></div>
+                </li>
+            </div>
+            <div class="style-18">
+                <li class="style-19"><a class="style-20" href="/login"><button class="style-21"> Log in</button></a>
+                </li>
+                <li class="style-22"><a class="style-23" href="/register"><button class="style-24">Get
+                            started</button></a></li>
+            </div>
+        </ul><button class="style-25"><svg width="23" height="23" viewBox="0 0 23 23" class="style-26">
+                <path fill="transparent" stroke-width="2" stroke="hsl(0, 0%, 18%)" stroke-linecap="round"
+                    d="M 2 2.5 L 20 2.5" class="style-27"></path>
+                <path fill="transparent" stroke-width="2" stroke="hsl(0, 0%, 18%)" stroke-linecap="round"
+                    d="M 2 9.423 L 20 9.423" opacity="1" class="style-28"></path>
+                <path fill="transparent" stroke-width="2" stroke="hsl(0, 0%, 18%)" stroke-linecap="round"
+                    d="M 2 16.346 L 20 16.346" class="style-29"></path>
+            </svg></button>
+    </nav>
+    <div class="style-30">
+        <div class="style-31">
+            <div class="style-32">
+                <div class="style-33"><a href="/" class="style-34">
+                        <div class="style-35"><img
+                                src="https://storage.googleapis.com/easymails/easymails.baruzotech.com/icons/android-icon-144x144.png"
+                                alt="EasyMails logo" class="style-36" />EasyMails</div>
+                    </a>
+                    <div class="style-37"><a class="style-38" href="/blogs">
+                            <div class="style-39"><span class="style-40">Blogs</span></div>
+                        </a><a class="style-41" href="/#faqs">
+                            <div class="style-42"><span class="style-43">FAQs</span></div>
+                        </a><a class="style-44" href="/monday.com">
+                            <div class="style-45"><img src="https://api.iconify.design/logos:monday-icon.svg"
+                                    alt="monday.com" class="style-46" /><span class="style-47">monday.com</span></div>
+                        </a></div>
+                </div>
+                <div class="style-48"><button class="style-49" type="button" aria-haspopup="menu" aria-expanded="false"
+                        data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="style-50">
+                            <circle cx="12" cy="12" r="4" class="style-51"></circle>
+                            <path d="M12 2v2" class="style-52"></path>
+                            <path d="M12 20v2" class="style-53"></path>
+                            <path d="m4.93 4.93 1.41 1.41" class="style-54"></path>
+                            <path d="m17.66 17.66 1.41 1.41" class="style-55"></path>
+                            <path d="M2 12h2" class="style-56"></path>
+                            <path d="M20 12h2" class="style-57"></path>
+                            <path d="m6.34 17.66-1.41 1.41" class="style-58"></path>
+                            <path d="m19.07 4.93-1.41 1.41" class="style-59"></path>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="style-60">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" class="style-61"></path>
+                        </svg><span class="style-62">Toggle theme</span></button>
+                    <div class="style-63"><a href="/login" class="style-64"><button class="style-65">Log
+                                in</button></a><a href="/register" class="style-66"><button class="style-67">Get
+                                started</button></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="style-68">
+        <article class="style-69">
+            <div class="style-70"><a class="style-71" href="/blogs"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="style-72">
+                        <path d="m15 18-6-6 6-6" class="style-73"></path>
+                    </svg>See all posts</a>
+                <div class="style-74"><time datetime="2024-04-16T10:03:12.892Z" class="style-75">Published on April 16,
+                        2024</time>
+                    <h1 class="style-76">Send Beautiful HTML Emails <br> from monday.com</h1>
+                </div><img title="Send Beautiful HTML Emails from monday.com"
+                    alt="Send Beautiful HTML Emails from monday.com" loading="lazy" width="1200" height="630"
+                    decoding="async" data-nimg="1" class="style-77" srcset="KISHAN.png" src="KISHAN.png" />
+                <h2 class="style-78"><a class="style-79" aria-label="Link to section" type="heading"
+                        href="#introduction"><span class="style-80">Introduction</span></a>Introduction</h2>
+                <p class="style-81">Email marketing is a powerful tool for businesses to connect with their audience and
+                    drive engagement. With EasyMails seamlessly integrated into monday.com, sending visually appealing
+                    HTML emails has never been easier. Let's explore how you can enhance your email marketing efforts
+                    with EasyMails.</p>
+                <h2 class="style-82"><a class="style-83" aria-label="Link to section" type="heading"
+                        href="#step-1-getting-started"><span class="style-84">Step 1 getting started</span></a>Step 1:
+                    Getting Started</h2>
+                <p class="style-85">Begin by signing up for EasyMails through their website, <a class="style-86"
+                        href="https://easymails.baruzotech.com/" rel="noopener noreferrer"
+                        target="_blank">EasyMails</a>, and install the app from the <a class="style-87"
+                        href="https://monday.com/marketplace/10000414" rel="noopener noreferrer"
+                        target="_blank">monday.com marketplace</a>. This integration brings email marketing directly to
+                    your monday.com board, streamlining your workflow.</p>
+                <p class="style-88"><img class="style-89" alt="EasyMails app on monday.com marketplace "
+                        src="https://storage.googleapis.com/easymails/assets/file-1713251143594-323086163.png"
+                        title="EasyMails app on monday.com marketplace" /></p>
+                <h2 class="style-90"><a class="style-91" aria-label="Link to section" type="heading"
+                        href="#step-2-designing-html-emails"><span class="style-92">Step 2 designing html
+                            emails</span></a>Step 2: Designing HTML Emails</h2>
+                <p class="style-93">EasyMails provides a user-friendly interface with a drag-and-drop builder to create
+                    stunning HTML email templates. Personalise your emails with brand elements and captivating content
+                    to engage your audience effectively.</p> <iframe
+                    src="https://www.motionshot.app/walkthrough/661e24a2c4507adcd6d9e02f/embed?hideSteps=1&amp;hideAsSteps=1&amp;hideDownload=1&amp;hideCopy=1&amp;fullscreen=1"
+                    width="100%" height="420px" class="style-94"></iframe>
+                <h2 class="style-95"><a class="style-96" aria-label="Link to section" type="heading"
+                        href="#step-3-connecting-email-accounts"><span class="style-97">Step 3 connecting email
+                            accounts</span></a>Step 3: Connecting Email Accounts</h2>
+                <p class="style-98">Easily connect multiple email accounts, including Google, Microsoft, and SMTP
+                    servers, with EasyMails. This flexibility allows you to send emails from various addresses
+                    seamlessly.</p> <iframe
+                    src="https://www.motionshot.app/walkthrough/661e2d544816df2b125f9248/embed?hideSteps=1&amp;hideAsSteps=1&amp;hideDownload=1&amp;hideCopy=1&amp;fullscreen=1"
+                    width="100%" height="420px" class="style-99"></iframe>
+                <h2 class="style-100"><a class="style-101" aria-label="Link to section" type="heading"
+                        href="#step-4-sending-emails-from-mondaycom"><span class="style-102">Step 4 sending emails from
+                            mondaycom</span></a>Step 4: Sending Emails from monday.com</h2>
+                <p class="style-103">Navigate to your monday.com board, select the item you want to email about, and
+                    send it directly using EasyMails. This efficient process saves you time and effort in managing your
+                    email communications.</p> <iframe
+                    src="https://www.motionshot.app/walkthrough/661e31989fec508187c87047/embed?hideSteps=1&amp;hideAsSteps=1&amp;hideDownload=1&amp;hideCopy=1&amp;fullscreen=1"
+                    width="100%" height="420px" class="style-104"></iframe>
+                <h2 class="style-105"><a class="style-106" aria-label="Link to section" type="heading"
+                        href="#step-5-automating-workflows"><span class="style-107">Step 5 automating
+                            workflows</span></a>Step 5: Automating Workflows</h2>
+                <p class="style-108">Take advantage of EasyMails' automation features to set triggers and actions for
+                    sending emails based on specific criteria within your monday.com workflow. This automation enhances
+                    productivity and ensures timely communication.</p> <iframe
+                    src="https://www.motionshot.app/walkthrough/661e3db3855561869e312934/embed?hideSteps=1&amp;hideAsSteps=1&amp;hideDownload=1&amp;hideCopy=1&amp;fullscreen=1"
+                    width="100%" height="420px" class="style-109"></iframe>
+                <h2 class="style-110"><a class="style-111" aria-label="Link to section" type="heading"
+                        href="#security-and-privacy-assurance"><span class="style-112">Security and privacy
+                            assurance</span></a>Security and Privacy Assurance</h2>
+                <p class="style-113">At EasyMails, we prioritise the security and privacy of your data. We employ robust
+                    security measures to protect your information and ensure that your integration settings are secure.
+                    You can trust EasyMails to safeguard your data while enhancing your email marketing capabilities.
+                </p>
+                <h2 class="style-114"><a class="style-115" aria-label="Link to section" type="heading"
+                        href="#conclusion"><span class="style-116">Conclusion</span></a>Conclusion</h2>
+                <p class="style-117">EasyMails revolutionises email marketing within monday.com, offering a seamless
+                    experience from designing HTML emails to automating workflows. Explore the possibilities with
+                    EasyMails today and elevate your email marketing game with confidence and security.</p>
+                <h3 class="style-118"><a class="style-119" aria-label="Link to section" type="heading"
+                        href="#tool-used-to-make-video-guides"><span class="style-120">Tool used to make video
+                            guides</span></a>Tool used to make video guides</h3>
+                <p class="style-121">All vidoes are created using platform <a class="style-122"
+                        href="https://www.motionshot.app/?aff=MJ0oR" rel="noopener noreferrer"
+                        target="_blank">MotionShot App</a></p>
+                <hr class="style-123" />
+                <hr>
+            </div>
+            <div class="style-124">
+                <div class="style-125">
+                    <nav class="style-126">
+                        <div class="style-127">On this page</div>
+                        <ul class="style-128">
+                            <li class="style-129">
+                                <div class="style-130">
+                                    <div class="style-131"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-132">
+                                            <path d="m9 18 6-6-6-6" class="style-133"></path>
+                                        </svg></div><a href="#introduction" class="style-134">Introduction</a>
+                                </div>
+                            </li>
+                            <li class="style-135">
+                                <div class="style-136">
+                                    <div class="style-137"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-138">
+                                            <path d="m9 18 6-6-6-6" class="style-139"></path>
+                                        </svg></div><a href="#step-1-getting-started" class="style-140">Step 1 getting
+                                        started</a>
+                                </div>
+                            </li>
+                            <li class="style-141">
+                                <div class="style-142">
+                                    <div class="style-143"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-144">
+                                            <path d="m9 18 6-6-6-6" class="style-145"></path>
+                                        </svg></div><a href="#step-2-designing-html-emails" class="style-146">Step 2
+                                        designing html emails</a>
+                                </div>
+                            </li>
+                            <li class="style-147">
+                                <div class="style-148">
+                                    <div class="style-149"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-150">
+                                            <path d="m9 18 6-6-6-6" class="style-151"></path>
+                                        </svg></div><a href="#step-3-connecting-email-accounts" class="style-152">Step 3
+                                        connecting email accounts</a>
+                                </div>
+                            </li>
+                            <li class="style-153">
+                                <div class="style-154">
+                                    <div class="style-155"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-156">
+                                            <path d="m9 18 6-6-6-6" class="style-157"></path>
+                                        </svg></div><a href="#step-4-sending-emails-from-mondaycom"
+                                        class="style-158">Step 4 sending emails from mondaycom</a>
+                                </div>
+                            </li>
+                            <li class="style-159">
+                                <div class="style-160">
+                                    <div class="style-161"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-162">
+                                            <path d="m9 18 6-6-6-6" class="style-163"></path>
+                                        </svg></div><a href="#step-5-automating-workflows" class="style-164">Step 5
+                                        automating workflows</a>
+                                </div>
+                            </li>
+                            <li class="style-165">
+                                <div class="style-166">
+                                    <div class="style-167"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-168">
+                                            <path d="m9 18 6-6-6-6" class="style-169"></path>
+                                        </svg></div><a href="#security-and-privacy-assurance" class="style-170">Security
+                                        and privacy assurance</a>
+                                </div>
+                            </li>
+                            <li class="style-171">
+                                <div class="style-172">
+                                    <div class="style-173"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-174">
+                                            <path d="m9 18 6-6-6-6" class="style-175"></path>
+                                        </svg></div><a href="#conclusion" class="style-176">Conclusion</a>
+                                </div>
+                            </li>
+                            <li class="style-177">
+                                <div class="style-178">
+                                    <div class="style-179"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="style-180">
+                                            <path d="m9 18 6-6-6-6" class="style-181"></path>
+                                        </svg></div><a href="#tool-used-to-make-video-guides" class="style-182">Tool
+                                        used to make video guides</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="style-183">Share on</div>
+                    <div class="style-184">
+                        <div class="style-185"><a target="_blank" rel="noopener noreferrer" class="style-186"
+                                href="https://twitter.com/intent/tweet?text=Send Beautiful HTML Emails from monday.com&amp;url=https://easymails.baruzotech.com/blogs/how-to-send-html-emails-directly-from-monday-com"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="style-187">
+                                    <path
+                                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                                        class="style-188"></path>
+                                </svg></a><a target="_blank" rel="noopener noreferrer" class="style-189" http:=""><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="style-190">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                        class="style-191"></path>
+                                    <rect width="4" height="12" x="2" y="9" class="style-192"></rect>
+                                    <circle cx="4" cy="4" r="2" class="style-193"></circle>
+                                </svg></a><a target="_blank" rel="noopener noreferrer" class="style-194"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https://easymails.baruzotech.com/blogs/how-to-send-html-emails-directly-from-monday-com"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="style-195">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                        class="style-196"></path>
+                                </svg></a></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="style-197"><a class="style-198" href="/blogs"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="style-199">
+                    <path d="m15 18-6-6 6-6" class="style-200"></path>
+                </svg>See all posts</a></div>
+    </div>
+    <hr>
+    <footer class="style-201">
+        <div class="style-202">
+            <div class="style-203">
+                <div class="style-204"><a class="style-205" href="/"><span class="style-206">EasyMails logo</span><img
+                            src="https://storage.googleapis.com/easymails/easymails.baruzotech.com/icons/android-icon-144x144.png"
+                            alt="EasyMails | send mails from monday.com" class="style-207" width="60" />EasyMails</a>
+                    <p class="style-208">Send text, html, markdown email from your monday.com board easily, we support
+                        all the types of integrations.</p>
+                    <div class="style-209"></div>
+                </div>
+                <div class="style-210">
+                    <div class="style-211">
+                        <h3 class="style-212">Company</h3>
+                        <ul role="list" class="style-213">
+                            <li class="style-214"><a class="style-215" href="/blogs">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="style-216">
+                        <h3 class="style-217">Legal</h3>
+                        <ul role="list" class="style-218">
+                            <li class="style-219"><a class="style-220" href="/docs/privacy-policy">Privacy Policy</a>
+                            </li>
+                            <li class="style-221"><a class="style-222" href="/docs/terms-of-service">Terms Of
+                                    Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="style-223">
+               <hr><br><br>
+                <p class="style-224">© 2024 EasyMails. All rights
+
+                </p>
+            </div>
+        </div>
+    </footer>
+    <link rel="preload" as="image"
+        href="https://storage.googleapis.com/easymails/assets/file-1713251143594-323086163.png" class="style-225" />
+    <next-route-announcer class="style-226"></next-route-announcer>
+    <div aria-live="polite" class="style-227">
+        <div class="style-228">
+            <div class="style-229"></div>
+            <div class="style-230"></div>
+        </div>
+        <div lang="en" dir="ltr" translate="no" tabindex="-1" class="style-231" data-hidden="false"
+            data-force-show="false" data-color-mode="light" data-availability="online" data-lock-maximized="false"
+            data-website-logo="false" data-last-operator-face="false" data-ongoing-operator-face="false"
+            data-availability-tooltip="false" data-hide-vacation="false" data-blocked="false" data-mobile-view="false"
+            data-full-view="false" data-small-view="false" data-large-view="false" data-has-local-messages="false"
+            data-was-availability-online="true" data-is-activity-ongoing="false" data-hide-on-away="false"
+            data-hide-on-mobile="false" data-position-reverse="false">
+            <div class="style-232"><a data-maximized="false" data-is-failure="false" class="style-233" tabindex="0"
+                    role="button" aria-label="Open chat" data-pane-animate-entrance="false"
+                    data-pop="minimized:open"><span class="style-234">
+                        <!--v-if-->
+                    </span><span class="style-235"><span data-id="chat_closed" data-is-ongoing="false"
+                            class="style-236"><span class="style-237">
+                                <!--v-if-->
+                            </span></span></span></a></div>
+        </div>
+    </div>
+    <script setup lang="ts"></script>
+
+<template>
+  <header>
+    <div class="hello">Hello</div>
+  </header>
+</template>
+</body>
+</html>                                                                                                                                                                                                                          
+
+
+
+
+
+
+
+
+
+
+
+
